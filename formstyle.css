@@ -9,7 +9,7 @@ html {
 body {
     min-height: 100vh;
     font-family: 'Comic Neue', 'Arial', sans-serif;
-    background-image: url("pictures/desktop-bg.jpg");
+    background-image: url("pictures/desktop-bg.jpg?v=2");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -160,7 +160,7 @@ main {
 
 @media (max-width: 768px) {
     body {
-        background-image: url("pictures/phone-bg.jpg");
+        background-image: url("pictures/phone-bg.jpg?v=2");
     }
     header {
         width: 88%;
