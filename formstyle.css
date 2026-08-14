@@ -9,7 +9,7 @@ html {
 body {
     min-height: 100vh;
     font-family: 'Comic Neue', 'Arial', sans-serif;
-    background-image: url("pictures/desktop-bg.jpg?v=2");
+    background-image: url("pictures/desktop-bg.png?v=2");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -17,12 +17,12 @@ body {
     color: #000;
 }
 header {
-    width: 42%;
-    margin-left: 6%;
+    width: 88%;
+    margin: 0 auto;
     padding-top: 50px;
     padding-bottom: 25px;
-    /* Add a slight tilt for action feel */
-    transform: rotate(-2deg);
+    text-align: center;
+    transform: rotate(0deg);
 }
 header h1 {
     font-family: 'Bangers', cursive;
@@ -54,12 +54,13 @@ header p {
 }
 main {
     width: 100%;
-    padding-left: 6%;
     padding-bottom: 70px;
+    display: flex;
+    justify-content: center;
 }
 #detail-form {
-    width: 40%;
-    max-width: 600px;
+    width: 75%;
+    max-width: 800px;
     padding: 30px;
     background: rgba(0, 0, 0, 0.55); /* Translucent black for high visibility */
     backdrop-filter: blur(10px);
